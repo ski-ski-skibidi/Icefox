@@ -1,0 +1,6 @@
+run = "bash x.sh"
+audio = true
+
+[[ports]]
+localPort = 5900
+externalPort = 80
