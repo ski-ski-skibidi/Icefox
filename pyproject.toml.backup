@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "test-1"
+version = "0.1.0"
+[tool.poetry.dependencies]
+python = "^3.8"
+[tool.pyright]
+useLibraryCodeForTypes = true
+[tool.ruff]
+ignore = ["W291", "W292", "W293"]
+select = ["E", "W", "F", "I", "B", "C4", "ARG", "SIM"]
